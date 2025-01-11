@@ -8,6 +8,8 @@ Level: Basic DOM Manipulation
 1. Change Text Style
 Create a page on which users can use dropdown menus to change the
 font size, color, and font family of a text block.
+
+
 2. Click Counter
 Add a button that displays the number of times it has been clicked.
 3. Show/Hide Password Toggle

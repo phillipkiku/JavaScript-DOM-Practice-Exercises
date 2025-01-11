@@ -1,0 +1,15 @@
+body{
+    background-color: lightcyan;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: large;
+    margin-top: 25%;
+}
+div{
+    text-align: left;
+    background-color: wheat;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    
+}
