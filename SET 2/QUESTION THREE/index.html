@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div>
+      <h1>3. Image Carousel</h1>
+      <p>
+        Create an image carousel with "Next" and "Previous" buttons to navigate
+        through a series of images.
+      </p>
+    </div>
+    <div id="slidesContainer">
+      <div class="images fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="./Img1.jpg" />
+        <p>FIRST IMAGES</p>
+      </div>
+
+      <div class="images fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="./Img2.jpg" />
+        <p>SECOND IMAGES</p>
+      </div>
+
+      <div class="images fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="./Img3.jpg" />
+        <p>THIRD IMAGES</p>
+      </div>
+      <!--Navigation Section -->
+      <a class="navigate" onclick="moveImages(-1)"><button>PREVIOUS</button></a>
+      <a class="navigate" onclick="moveImages(1)"><button>NEXT</button></a>
+    </div>
+    <br />
+
+    <!--Current image section-->
+
+    <div style="text-align: center">
+      <span class="position" onclick="currentImage(1)"></span>
+      <span class="position" onclick="currentImage(2)"></span>
+      <span class="position" onclick="currentImage(3)"></span>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

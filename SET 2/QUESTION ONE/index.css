@@ -1,0 +1,32 @@
+body {
+  background-color: lightcyan;
+  width: 90%;
+  margin-left: 5%;
+  font-size: large;
+  margin-top: 15%;
+  text-align: center;
+}
+p {
+  font-size: x-large;
+}
+#main {
+  font-size: x-large;
+  background-color: wheat;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  width: 40%;
+  margin-left: 28%;
+}
+
+#list {
+  width: 0%;
+  font-size: xx-large;
+  margin-left: 45%;
+}
+button {
+  font-size: smaller;
+  margin-top: 1rem;
+}
+input {
+  font-size: x-large;
+}

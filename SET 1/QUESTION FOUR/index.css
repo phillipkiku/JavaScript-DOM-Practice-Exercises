@@ -1,0 +1,23 @@
+body {
+  background-color: lightcyan;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  font-size: x-large;
+  margin-top: 15%;
+}
+div {
+  border: 0.2rem solid wheat;
+  background-color: wheat;
+  border-radius: 1rem;
+  font-size: xx-large;
+  width: 50%;
+  margin-left: 24%;
+}
+span {
+  color: maroon;
+  font-weight: 700;
+}
+textarea {
+  font-size: xx-large;
+}
