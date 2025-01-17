@@ -1,0 +1,22 @@
+body{
+    background-color: lightcyan;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: large;
+    margin-top: 25%;
+}
+
+table{
+    background-color: wheat;
+
+}
+th{
+    width: 10%;
+}
+#myTable{
+    font-size: x-large;
+    
+    margin-top: 1rem;
+    padding: 1rem;
+}

@@ -19,7 +19,7 @@ function count(e){
 
 let maxCharacters = 200;
 let enteredText = document.getElementById("enteredtext");
-var countCharaters = document.getElementById("count");
+let countCharaters = document.getElementById("count");
 countCharaters.innerHTML = maxCharacters;
     
 enteredText.addEventListener("keydown",count);

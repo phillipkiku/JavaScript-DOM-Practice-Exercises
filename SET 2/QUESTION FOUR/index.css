@@ -1,0 +1,18 @@
+body{
+    transition: backgorund-color 0.5s, color 0.5s;
+    }
+    body.light-mode{
+        color: black;
+        background-color: white;
+    }
+
+    body.dark-mode{
+        color: white;
+        background-color: black;
+    }
+
+
+
+button{
+    font-size: xx-large;
+}

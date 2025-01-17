@@ -1,0 +1,68 @@
+/* body{
+    background-color: lightcyan;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: large;
+    margin-top: 25%;
+}
+div{
+    text-align: left;
+    background-color: wheat;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    
+} */
+
+body {
+    background-color: beige;
+  }
+  body h1 {
+    font-size: xx-large;
+  }
+  
+  body p {
+    font-size: x-large;
+  }
+  
+  main {
+    background-color: aquamarine;
+  }
+  
+  .input {
+    font-size: x-large;
+  }
+  
+  .input label {
+    font-size: x-large;
+  }
+  
+  .input input {
+    padding: 4rem;
+  }
+  
+  .input button {
+    font-size: x-small;
+  }
+  
+  ul {
+    background-color: beige;
+    list-style: decimal;
+    font-size: x-large;
+  }
+  
+  .button {
+    padding: 1rem;
+    font-size: x-large;
+  }
+  
+  .listItemContainer {
+    display: flex;
+  }
+  .taskText {
+    font-size: x-large;
+  }
+  .buttonContainer {
+      display: flex;
+  }
+  
