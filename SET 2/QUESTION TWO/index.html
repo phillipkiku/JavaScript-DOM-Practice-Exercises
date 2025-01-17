@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter Table Rows</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
     <h1>2. Filter Table Rows</h1>
-        <p>Create a search bar to filter rows in a table based on user input.</p>
+    <p>Create a search bar to filter rows in a table based on user input.</p>
 
+    <input
+      type="text"
+      id="myInput"
+      onkeyup="filterRow()"
+      placeholder="Search for a Name."
+    />
 
-        <input type="text" id="myInput" onkeyup="filterRow()" placeholder="Search for names..">
-        
+    <table id="myTable">
+      <tr class="header">
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Mark</td>
+        <td>Male</td>
+        <td>24</td>
+      </tr>
+      <tr>
+        <td>Jane</td>
+        <td>Female</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>James</td>
+        <td>Male</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Hellen</td>
+        <td>Female</td>
+        <td>25</td>
+      </tr>
+    </table>
 
-<table id="myTable">
-  <tr class="header">
-    <th >Name</th>
-    <th >Gender</th>
-    <th> Age</th>
-  </tr>
-  <tr>
-    <td>Mark</td>
-    <td>Male</td>
-    <td>24</td>
-  </tr>
-  <tr>
-    <td>Jane</td>
-    <td>Female</td>
-    <td>19</td>
-  </tr>
-  <tr>
-    <td>James</td>
-    <td>Male</td>
-    <td>30</td>
-  </tr>
-  <tr>
-    <td>Hellen</td>
-    <td>Female</td>
-    <td>25</td>
-  </tr>
-</table>
-
-
-
-
-
-            <script src="./index.js"></script>
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>

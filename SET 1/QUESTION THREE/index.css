@@ -1,0 +1,22 @@
+body {
+  background-color: lightcyan;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  font-size: large;
+  margin-top: 15%;
+}
+
+div {
+  border: 0.2rem solid wheat;
+  padding: 2rem;
+  background-color: wheat;
+  font-size: 2rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  width: 50%;
+  margin-left: 24%;
+}
+input {
+  font-size: 2rem;
+}

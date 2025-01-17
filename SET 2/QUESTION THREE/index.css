@@ -1,9 +1,28 @@
-body{
-    background-color: lightcyan;
-    width: 90%;
-    margin-left: 5%;
-    text-align: center;
-    font-size: large;
-    margin-top: 25%;
+
+body {
+  background-color: lightcyan;
+  text-align: center;
 }
- 
+
+img {
+  width: 30rem;
+  height: 40rem;
+}
+
+section {
+  display: inline;
+}
+
+button{
+    font-size: x-large;
+    font-weight: 700;
+    color: red;
+    
+}
+#slidesContainer{
+  border-radius: 2rem;
+  padding: 2rem;
+  width: 40%;
+  margin-left: 28%;
+  background-color: antiquewhite;
+}
