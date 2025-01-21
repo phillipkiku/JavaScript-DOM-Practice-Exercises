@@ -1,5 +1,7 @@
+/* Body elements are in this section  */
 body {
   background-color: beige;
+  text-align: center;
 }
 body h1 {
   font-size: xx-large;
@@ -9,8 +11,14 @@ body p {
   font-size: x-large;
 }
 
+/* Main section area where the list will be displayed */
 main {
-  background-color: aquamarine;
+  background-color: chocolate;
+  padding: 5%;
+  width: 80%;
+  margin-left: 5%;
+  border-radius: 2rem;
+  display: inline-block;
 }
 
 .input {
@@ -18,26 +26,31 @@ main {
 }
 
 .input label {
-  font-size: x-large;
+  font-size: xx-large;
+  color: aliceblue;
+  font-weight: 800;
 }
 
 .input input {
-  padding: 4rem;
+  padding: 1rem;
+  font-size: x-large;
 }
 
 .input button {
-  font-size: x-small;
+  font-size: large;
+  padding: 1%;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
 }
 
-ul {
-  background-color: beige;
-  list-style: decimal;
-  font-size: x-large;
-}
-
+/* Elements thats will be generated with the list item */
 .button {
-  padding: 1rem;
-  font-size: x-large;
+  padding: 0.3rem;
+  font-size: large;
+  color: azure;
+  background-color: black;
+  margin-left: 1rem;
 }
 
 .listItemContainer {
@@ -45,6 +58,10 @@ ul {
 }
 .taskText {
   font-size: x-large;
+  align-self: center;
+  padding: 0.5rem;
+  font-weight: 800;
+  color: aliceblue;
 }
 .buttonContainer {
   display: flex;
