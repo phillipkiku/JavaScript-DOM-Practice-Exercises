@@ -7,9 +7,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.classList.toggle("light-mode");
     document.body.classList.toggle("dark-mode");
 
+
     const newTheme = document.body.classList.contains("dark-mode")
       ? "dark"
       : "light";
     localStorage.setItem("theme", newTheme);
+    alert(`Theme has changed from ${newTheme} to ${currentTheme}`)
   });
 });
