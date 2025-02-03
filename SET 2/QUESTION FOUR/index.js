@@ -12,6 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
       ? "dark"
       : "light";
     localStorage.setItem("theme", newTheme);
-    alert(`Theme has changed from ${newTheme} to ${currentTheme}`)
+    alert(`Theme is changing from ${newTheme} to ${currentTheme}`)
   });
 });

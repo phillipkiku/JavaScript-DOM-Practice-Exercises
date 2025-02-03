@@ -51,8 +51,8 @@ function addTask() {
       myList.appendChild(listItem);
 
       addToLocalStorage(task);
-      
-      addTask.value = "";
+
+      addTask.value = " ";
     }
   });
 

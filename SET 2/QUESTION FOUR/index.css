@@ -1,5 +1,8 @@
 body {
   transition: backgorund-color 0.5s, color 0.5s;
+  text-align: center;
+  margin-top: 15%;
+  font-size: x-large;
 }
 body.light-mode {
   color: black;
@@ -12,5 +15,6 @@ body.dark-mode {
 }
 
 button {
-  font-size: xx-large;
+  font-size: large;
+  padding: 0.5rem;
 }
